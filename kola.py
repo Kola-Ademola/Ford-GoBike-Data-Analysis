@@ -3,3 +3,5 @@ import numpy as np
 # comment out
 # new comment
  # np
+
+ #test stash pop
