@@ -1,10 +1,33 @@
 # Ford GoBike System Data
-## by Kola Ademola
+___
+![](images/ford_gobike.webp)
+___
+## INTRODUCTION
+___
+This data set includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area and represents trips taken by members of the service for month of February of 2019. This project helped improved my data assesment & data cleaning skills.
+
+### PROBLEM STATEMENT
+The Ford GoBike organization would love to know if there is a relationship between age & number of subscribers/trips. So I would use the dataset to answer the following question;
+* The number of trips taken by age group.
+* The proportion of Subscribers to Customers.
+* The number of subscribers compared to customers for each age group.
+* The trend of trips taken over the month. 
+___
+## DATA SOURCING
+This data set is taken from; [Ford GoBike System Data](https://www.fordgobike.com/system-data).
+___
+## SKILLS DEMONSTRATED
+___
+For this project I did my data cleaning and visualizations all in Python using complex functions such as;
+* ___FILL MISSING VALUES___
+![](images/fix_missing_values.png)
+* ___FEATURE ENGINEERING___
+![](images/feature_eng1.png)
+![](images/feature_eng2.png)
+![](images/feature_eng3.png)
 
 
-## Ford GoBike System Data
 
-This data set includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area.  
 After loading the dataset I took the following steps in my wrangling/cleaning process:
 * I started by assessing the data visually & programmatically.
 * I created a copy of the dataset before cleaning.
@@ -29,7 +52,6 @@ After using Univariate, Bivariate & Multivariate exploration to check my variabl
 * Number of trips start declining after the 3rd week of the month.
 
 ## Key Insights for Presentation
-
 For the presentaion I'll like to focus on how age affects the number of trips and even the number of people that subscribe to the Bike share program. I'll start by introducing the age variable and then show how it is distributed accross the dataset.
 
 After which I introduce how the diffrent age groups come out on:
