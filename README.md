@@ -97,3 +97,17 @@ ___Male takes more trips but they appear to be for shorter distance/duration.___
 
 #### TREND OF TRIPS OVER THE WEEKS BY AGE GROUP
 ![](images/trend_by_age.png)
+
+### CONCLUSIONS & RECCOMMENDATIONS
+
+* I discovered that younger people between 18-50 years old take more trips and even subscribe more.
+* Majority of the people that take trips are just Customers.
+* Majority of trips were taken 5PM & 8AM but then I also noticed that the longest trips were taken 3AM & 2AM.
+* Male takes more trips but they appear to be for shorter distance/duration.
+* Thursday & Tuesday came out as the days that most trips were taken, I thought it would be on weekends though.
+* Number of trips start declining after the 3rd week of the month.
+
+#### Here are my Reccommendations;
+* The marketing team should target their ads/marketing campaign towards younger audience.
+* Ford GoBike can find a means to add incentive to being a **Subscriber**, to encourage customers to become **Subscribers**.
+* Ford GoBike can also create an app that records subscribers total trip duration and rewards them with free trips to encourage more usage.
