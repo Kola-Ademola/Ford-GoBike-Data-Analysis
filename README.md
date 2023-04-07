@@ -11,7 +11,7 @@ The Ford GoBike organization would love to know if there is a relationship betwe
 * The number of trips taken by age group.
 * The proportion of Subscribers to Customers.
 * The number of subscribers compared to customers for each age group.
-* The trend of trips taken over the month. 
+* The trend of trips taken over the course of the month. 
 ___
 ## DATA SOURCING
 This data set is taken from; [Ford GoBike System Data](https://www.fordgobike.com/system-data).
@@ -47,49 +47,53 @@ ___
 ___
 ### SUMMARY
 After using Univariate, Bivariate & Multivariate exploration to check my variables of interest, this is the summary of my findings:
-* I discovered that younger people between **18-50** years old take more trips and even subscribe more.
-#### Age Distribution
+
+#### AGE DISTRIBUTION
 ![](images/age_dist.png)
-#### Number of Trips Taken by Age Group
+#### NUMBER OF TRIPS TAKEN BY AGE GROUP
 ![](images/trips_by_age.png)
-* Majority of the people that take trips are just Customers.
-#### Proportion of Customers to Subscribers
+* I discovered that younger people between **18-50** years old take more trips and even subscribe more.
+
+#### PROPORTION OF CUSTOMERS TO SUBSCRIBERS
 ![](images/prop_of_customers.png)
-* Majority of trips were taken **5PM** & **8AM** but then I also noticed that the longest trips were taken **3AM** & **2AM**.
-* Male takes more trips but they appear to be for shorter distance/duration.
-* **Thursday** & **Tuesday** came out as the days that most trips were taken, I thought it would be on weekends though.
+#### FURTHER LOOK INTO THE PROPORTION OF CUSTOMERS TO SUBSCRIBERS BY AGE GROUP
+![](images/trips_by_age.png)
+* Majority of the people that take trips are just Customers between **18 - 50yrs**.
+#### TREND OF TRIPS OVER WEEKS
+![](images/trend_of_trips.png)
 * Number of trips start declining after the 3rd week of the month.
+___
+## OTHER KEY INSIGHTS FROM THE DATA
+During exploration some notable insights that I find interesting are;
 
-## Key Insights for Presentation
-For the presentaion I'll like to focus on how age affects the number of trips and even the number of people that subscribe to the Bike share program. I'll start by introducing the age variable and then show how it is distributed accross the dataset.
-
-After which I introduce how the diffrent age groups come out on:
-    * The number of trips taken using a simple bar chart
-    * The proportion of Subscribers to Customers using a simple pie chart
-    * The number of subscribers compared to customers for each age group using a simple clustered bar chart for easy comparison.
-    * The trend of trips taken over the month using a line plot.
-    
-    
 * When are most trips taken in terms of time of day & day of the week?
-
-* How long does the average trip take & Does it depend on if a user is a subscriber or customer?
-
-* Does a particular age group take more trips?
-
-* Does a particular age group subscribe more?
-
-* Is there a particular time an age group take trips?
-
-* Do trips taken in a particular time of day last longer?
+#### NUMBER OF TRIPS TAKEN BY TIME
+![](images/trips_by_time.png)
+Is there a relationship between **trip_time** and duration of trips?
+#### AVERAGE TRIP DURATION BY TRIP TIME
+![](images/avg_trip_time.png)
+___Majority of trips were taken **5PM** & **8AM** but then I also noticed that the longest trips were taken **3AM** & **2AM**.___
+#### NUMBER OF TRIPS TAKEN BY DAY
+![](images/trips_by_day.png)
+___**Thursday** & **Tuesday** came out as the days that most trips were taken, I thought it would be on weekends though.___
 
 * Does a particular gender take more trips?
-
-* Does a particular gender subscribe more than the other?
-
-* Is there a relationship between **trip_time** and duration of trips?
-
-* Does **age** affect the duration of trips?
-
+#### NUMBER OF TRIPS TAKEN BY GENDER
+![](images/trips_by_gender.png)
+___Male takes more trips but they appear to be for shorter distance/duration.___
 * Does **gender** affect the trip duration?
+#### AVERAGE TRIP DURATION BY GENDER
+![](images/avg_trip_dur_by_gender.png)
+* Does **age** affect the duration of trips?
+#### TRIP DURATION BY AGROUP
+![](images/trip_dur_by_age.png)
 
 * What is the trend of trips over the weeks for: **user_type**, **member_gender** & **age_group**?
+#### TREND OF TRIPS OVER THE WEEKS BY GENDER
+![](images/trend_by_gender.png)
+
+#### TREND OF TRIPS OVER THE WEEKS BY USER TYPE
+![](images/trend_by_user.png)
+
+#### TREND OF TRIPS OVER THE WEEKS BY AGE GROUP
+![](images/trend_by_age.png)
